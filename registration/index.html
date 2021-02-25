@@ -54,7 +54,7 @@
             background-color: rgb(110,231,229);
             cursor: pointer;
         }
-        
+
         table{
             display: block;
             border-collapse: collapse;
@@ -72,7 +72,7 @@
         .datawrapper{
             width: 100%;
             display: flex;
-            flex-wrap: wrap; 
+            flex-wrap: wrap;
             justify-content: center;
         }
         div .bold{
@@ -81,10 +81,10 @@
         .fill::after{
             display: none;
         }
-        
+
         .mobile{
             display: none;
-            
+
         }
         .desktop{
             border-top: none;
@@ -92,12 +92,12 @@
             border-left: 3px solid black;
             border-bottom: 3px solid black;
         }
-        
+
         .lesspaddingtop{
             padding-top: 0px;
         }
-        
-        @media only screen and (max-width: 920px) {           
+
+        @media only screen and (max-width: 920px) {
             #firsttd
             {
                 border-top: 3px solid black;
@@ -118,34 +118,65 @@
                 justify-content: center;
                 align-content: center;
             }
-        }       
+        }
     </style>
 </head>
 <body>
     <table>
         <!--EVENTS ROW 1 -->
         <tr>
-            <td id = "firsttd"> 
+            <td id = "firsttd">
                 <div class = "datawrapper">
                     <div class = "title" style = "vertical-align: top"> Membership Form </div>
                     <div class = "info" style="" > If you are interested in our program, sign up on the form by clicking register in order to be added to our mailing list </div>
                     <a href = "https://docs.google.com/forms/d/e/1FAIpQLSf9Y5bM3Jh5usBepStEYQKDYuSEBBWlhSFz1oa2P5CmRJ0S2g/viewform" target="_blank" class = "button mobile">REGISTER NOW!</a>
                 </div>
             </td>
-			<td> 
+            <td>
+                <div class = "datawrapper">
+                    <div class = "title"> Panel #5: Pediatrics Panel</div>
+					<div class = "info" style="" >Please join us for our panel on <span class = bold >March 7th</span> from <span class = bold >1:00-2:30 PM PST</span> with the following medical professionals: <br>
+
+                        <span class = "bold">Dr. Heidi Szugye DO:</span> Staff Physician<br>
+                        <span class = "bold">Dr. Poonam Sambhaji MD:</span> Primary Care Pediatrician<br>
+                        <span class = "bold">Dr. Grant Hamill MBBS:</span> Staff Physician<br>
+                        <span class = "bold">Dr. Kayleigh McBride DO:</span> Info Will Be Posted Soon<br>
+                    </div>
+                    <a href = "https://forms.gle/ajZKQLLKrLCpu16H7" target="_blank" class = "button mobile">REGISTER NOW!</a>
+                </div>
+            </td>
+			<td>
                 <div class = "datawrapper">
                     <div class = "title"> Panel #4: Nurses Panel</div>
-					<div class = "info" style="" >Please join us for our panel on <span class = bold >January 30th</span> from <span class = bold >1:00-2:30 pm PST</span> with the following medical professionals: <br>
+					<div class = "info" style="" >Please join us for our panel on <span class = bold >January 31th</span> from <span class = bold >2:00-3:30 pm PST</span> with the following medical professionals: <br>
 
                         <span class = "bold">Jackie Spagnuolo RN, BSN:</span> Aesthetic nurse injector.<br>
                         <span class = "bold">Jordan Adams BSN, RN:</span> Cardiovascular Intensive Care Unit<br>
                         <span class = "bold">Julia Eze MSN, RN, FNP-C:</span> Family Nurse Practitioner<br>
                         <span class = "bold">Jeff Salvatore MSN, RN</span> Critical care and Cardiac Medicine<br>
                     </div>
-                    <a href = "https://forms.gle/q2icBu4RTo8dK5tw9" target="_blank" class = "button mobile">REGISTER NOW!</a>
+                    <a href = "" target="_blank" class = "button mobile">REGISTRATION CLOSED</a>
                 </div>
             </td>
-			<td> 
+        </tr>
+
+        <!--BUTTON ROW 1 -->
+        <tr>
+            <td class = "desktop lesspaddingtop">
+                <div class = "datawrapper lesspaddingtop"><a href = "https://docs.google.com/forms/d/e/1FAIpQLSf9Y5bM3Jh5usBepStEYQKDYuSEBBWlhSFz1oa2P5CmRJ0S2g/viewform" target="_blank" class = "button">REGISTER NOW!</a></div>
+            </td>
+			<td class = "desktop lesspaddingtop">
+                <div class = "datawrapper lesspaddingtop"><a href = "https://forms.gle/ajZKQLLKrLCpu16H7"   target="_blank" class = "button">REGISTER NOW!</a></div>
+            </td>
+            <td class = "desktop lesspaddingtop">
+                <div class = "datawrapper lesspaddingtop"><a  target="_blank" class = "button">REGISTRATION CLOSED</a></div>
+            </td>
+        </tr>
+
+
+        <!--EVENTS ROW 2 -->
+        <tr>
+            <td>
                 <div class = "datawrapper">
                     <div class = "title"> Panel #3: Minorities in Medicine</div>
 					<div class = "info" style="" >Please join us for our panel on <span class = bold >November 1st</span> from <span class = bold >1:00-2:30 pm PDT</span> with the following medical professionals: <br>
@@ -160,38 +191,20 @@
                     <a href = "" target="_blank" class = "button mobile">REGISTRATION CLOSED</a>
                 </div>
             </td>
-        </tr>
-        
-        <!--BUTTON ROW 1 -->
-        <tr>
-            <td class = "desktop lesspaddingtop">
-                <div class = "datawrapper lesspaddingtop"><a href = "https://docs.google.com/forms/d/e/1FAIpQLSf9Y5bM3Jh5usBepStEYQKDYuSEBBWlhSFz1oa2P5CmRJ0S2g/viewform" target="_blank" class = "button">REGISTER NOW!</a></div>
-            </td>
-			<td class = "desktop lesspaddingtop">
-                <div class = "datawrapper lesspaddingtop"><a href = "https://forms.gle/q2icBu4RTo8dK5tw9" target="_blank" class = "button">REGISTER NOW!</a></div>
-            </td>
-            <td class = "desktop lesspaddingtop">
-                <div class = "datawrapper lesspaddingtop"><a  target="_blank" class = "button">REGISTRATION CLOSED</a></div>
-            </td>
-        </tr>
-        
-        
-        <!--EVENTS ROW 2 -->
-        <tr>
-			<td> 
+			<td>
                 <div class = "datawrapper">
                     <div class = "title">Panel #2: Neuro</div>
                     <div class = "info" style=""  >Please join us for our panel on September 20th 1:00-2:30 pm PST with the following doctors: <br>
-                        <span class = "bold">Dr. David Langer:</span> Neurosurgeon <br> 
+                        <span class = "bold">Dr. David Langer:</span> Neurosurgeon <br>
                         <span class = "bold">Dr. Randy D'Amico:</span> Assistant Professor of Neurosurgery and Director of Neurosurgery/Neuro-Oncology <br>
                         <span class = "bold">Dr. Saman Sizdahkhani: </span> Neurosurgery Resident <br>
                         <span class = "bold">Dr. Rose De Guzman:</span> Maternal-Infant Neuro health <br>
-                        <span class = "bold">Dr. Rafael De la Garza:</span> Neurosurgery Resident 
+                        <span class = "bold">Dr. Rafael De la Garza:</span> Neurosurgery Resident
                     </div>
                     <a href = "" target="_blank" class = "button mobile">REGISTRATION CLOSED</a>
                 </div>
             </td>
-			<td> 
+			<td>
                 <div class = "datawrapper">
                     <div class = "title"> Panel #1: Career</div>
                     <div class = "info" style="" >Please join us for our panel on August 13th 4:00-5:30 pm PST for an open Q&A with the following doctors: <br>
@@ -207,16 +220,9 @@
                     <a class = "button mobile">REGISTRATION CLOSED</a>
                 </div>
             </td>
-            <td> 
-                <div class = "datawrapper">
-                    <div class = "title"> Dr. Kartheek Dasari </div>
-                    <div class = "info"  > Please join us with Dr. Kartheek Dasari to learn more about the field of Internal Medicine. Lectures will be on July 23rd, July 30th, and August 5th from 5:30 pm-6:30 pm PST. </div>
-                    <a class = "button mobile">REGISTRATION CLOSED</a>
-                </div>
-            </td>
         </tr>
-        
-        
+
+
         <!--BUTTON ROW 2  -->
         <tr>
 			 <td class = "desktop lesspaddingtop">
@@ -229,27 +235,34 @@
                 <div class = "datawrapper"><a class = "button">REGISTRATION CLOSED</a></div>
             </td>
         </tr>
-		
+
 		<!--EVENTS ROW 3 -->
         <tr>
-			<td> 
+            <td>
+                <div class = "datawrapper">
+                    <div class = "title"> Dr. Kartheek Dasari </div>
+                    <div class = "info"  > Please join us with Dr. Kartheek Dasari to learn more about the field of Internal Medicine. Lectures will be on July 23rd, July 30th, and August 5th from 5:30 pm-6:30 pm PST. </div>
+                    <a class = "button mobile">REGISTRATION CLOSED</a>
+                </div>
+            </td>
+			<td>
                 <div class = "datawrapper">
                     <div class = "title">Dr. Mandip Kang</div>
                     <div class = "info">Please join us with Dr. Mandip Kang to learn more about the field of Internal Medicine. Lectures will be on July 15th and July 22, from 5pm-6pm PST. </div>
                     <a class = "button mobile">REGISTRATION CLOSED</a>
                 </div>
             </td>
-            <td> 
+            <td>
                 <div class = "datawrapper">
                     <div class = "title"> Dr. Jasmine Singh</div>
-                    <div class = "info"  >Please join us with Dr. Jasmine Singh to learn more about the field of Psychiatry and Psychology. Lectures will be from July 6th -July 20th, every Monday from 4pm-5pm PST. 
+                    <div class = "info"  >Please join us with Dr. Jasmine Singh to learn more about the field of Psychiatry and Psychology. Lectures will be from July 6th -July 20th, every Monday from 4pm-5pm PST.
                     </div>
                     <a class = "button mobile">REGISTRATION CLOSED</a>
                 </div>
             </td>
         </tr>
-        
-        
+
+
         <!--BUTTON ROW 3  -->
         <tr>
 			<td class = "desktop lesspaddingtop">
@@ -258,8 +271,11 @@
             <td class = "desktop lesspaddingtop">
                 <div class = "datawrapper"><a class = "button">REGISTRATION CLOSED</a></div>
             </td>
+            <td class = "desktop lesspaddingtop">
+                <div class = "datawrapper"><a class = "button">REGISTRATION CLOSED</a></div>
+            </td>
         </tr>
-        
+
     </table>
 </body>
 </html>
